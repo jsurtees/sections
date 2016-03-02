@@ -1,0 +1,99 @@
+html {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+
+
+
+
+
+
+
+
+
+
+section {
+  vertical-align: middle;
+  padding: 1rem;
+}
+
+
+
+
+
+
+
+
+
+.img {
+  max-width: 25em;
+  display: inline-block;
+  padding: 5px;
+  vertical-align: middle;
+}
+
+img {
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+.right {
+  display: inline-block;
+  max-width: 25em;
+  padding: 5px;
+  vertical-align: middle;
+}
+
+h2 {
+  font-size: 1.25rem;
+}
+
+p {
+  font-size: 0.875rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn {
+  border: 3px solid #333;
+  padding: 0.4em 0.75em 0.3em;
+  text-decoration: none;
+  border-radius: 8px;
+  color: black;
+  font-size: 1rem;
+  display: inline-block;
+}
+
+.btn-ghost {
+  background-color: transparent;
+  color: #333;
+}
+
+.btn:hover {
+  background-color: #ccc;
+}
